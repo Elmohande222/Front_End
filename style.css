@@ -1,0 +1,30 @@
+body{
+    background-color:rgb(12, 12, 11);
+}
+
+.languages{
+    text-shadow: 1px 2px 3px darkorange;
+}
+.card{
+    margin:10px;
+    font-size: small;
+    text-align: center;
+    border-radius: 30px;
+}
+.F{
+    color: yellow;
+    text-shadow: 1px 2px 3px wheat;
+    
+}
+
+footer img {
+    text-decoration: none;
+    border-radius: 50%;
+}
+a
+.copyright {
+    margin-top: 10px;
+    color: #eed7d7;
+    font-size: large;
+    text-shadow:  yellow;
+}

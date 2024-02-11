@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Front End</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" type="project_image" href="./html.png">
+</head>
+<body>
+    <!-- font size -> fs  
+        font wight -> light bold
+        ------------------------------------
+            * text-decoration-underline  خط تحت الكلام
+            * text-decoration-line-through يحزف الكلام
+            * text-decoration-none يشيل الخط
+        ------------------------------------
+            * text-capitalize 
+            * text- uppercase
+        -------------------------------
+        bg background-color
+        -------------------------------
+        padding -> p --- pt , ps , pe , pb , px , py 
+        margin -> m --- mt , ms ,mb , me , mx , my 
+        -----------------------------------
+        button -> btn - لون  , btn-outline-لون 
+        -----------------------------------------
+        border - > border-الحواف , rounded-شكل انت عايز تعمله 
+        <span class="border"></span>
+        <span class="border-top"></span>
+        <span class="border-right"></span>
+        <span class="border-bottom"></span>
+        <span class="border-left"></span>
+        -------------------------------------------
+        color of Border _______>>>
+        <span class="border border-primary"></span>
+        <span class="border border-secondary"></span>
+        <span class="border border-success"></span>
+        <span class="border border-danger"></span>
+        <span class="border border-warning"></span>
+        <span class="border border-info"></span>
+        <span class="border border-light"></span>
+        <span class="border border-dark"></span>
+        <span class="border border-white"></span>
+        ----------------------------------------------
+        border-raduis ->
+        <img src="..." alt="..." class="rounded">
+        <img src="..." alt="..." class="rounded-top">
+        <img src="..." alt="..." class="rounded-right">
+        <img src="..." alt="..." class="rounded-bottom">
+        <img src="..." alt="..." class="rounded-left">
+        <img src="..." alt="..." class="rounded-circle">
+        <img src="..." alt="..." class="rounded-pill">
+        <img src="..." alt="..." class="rounded-0">
+        
+    -->  
+    <!-- FLEX  
+        .flex-row
+        .flex-row-reverse
+        .flex-column
+        .flex-column-reverse
+        .flex-sm-row
+        .flex-sm-row-reverse
+        .flex-sm-column
+        .flex-sm-column-reverse
+        .flex-md-row
+        .flex-md-row-reverse
+        .flex-md-column
+        .flex-md-column-reverse
+        .flex-lg-row
+        .flex-lg-row-reverse
+        .flex-lg-column
+        .flex-lg-column-reverse
+        .flex-xl-row
+        .flex-xl-row-reverse
+        .flex-xl-column
+        .flex-xl-column-reverse
+        ---------------------------------------
+        .justify-content-start
+        .justify-content-end
+        .justify-content-center
+        .justify-content-between
+        .justify-content-around
+        .justify-content-sm-start
+        .justify-content-sm-end
+        .justify-content-sm-center
+        .justify-content-sm-between
+        .justify-content-sm-around
+        .justify-content-md-start
+        .justify-content-md-end
+        .justify-content-md-center
+        .justify-content-md-between
+        .justify-content-md-around
+        .justify-content-lg-start
+        .justify-content-lg-end
+        .justify-content-lg-center
+        .justify-content-lg-between
+        .justify-content-lg-around
+        .justify-content-xl-start
+        .justify-content-xl-end
+        .justify-content-xl-center
+        .justify-content-xl-between
+        .justify-content-xl-around
+        ----------------------------------------
+        .align-items-start
+        .align-items-end
+        .align-items-center
+        .align-items-baseline
+        .align-items-stretch
+        .align-items-sm-start
+        .align-items-sm-end
+        .align-items-sm-center
+        .align-items-sm-baseline
+        .align-items-sm-stretch
+        .align-items-md-start
+        .align-items-md-end
+        .align-items-md-center
+        .align-items-md-baseline
+        .align-items-md-stretch
+        .align-items-lg-start
+        .align-items-lg-end
+        .align-items-lg-center
+        .align-items-lg-baseline
+        .align-items-lg-stretch
+        .align-items-xl-start
+        .align-items-xl-end
+        .align-items-xl-center
+        .align-items-xl-baseline
+        .align-items-xl-stretch
+        -------------------------------------------
+        .flex-nowrap
+        .flex-wrap
+        .flex-wrap-reverse
+        .flex-sm-nowrap
+        .flex-sm-wrap
+        .flex-sm-wrap-reverse
+        .flex-md-nowrap
+        .flex-md-wrap
+        .flex-md-wrap-reverse
+        .flex-lg-nowrap
+        .flex-lg-wrap
+        .flex-lg-wrap-reverse
+        .flex-xl-nowrap
+        .flex-xl-wrap
+        .flex-xl-wrap-reverse
+        -----------------------------------
+    -->
+    <header>
+        <h1 class="text-info text-center pt-5 ">How to Become a <span class="F">Front End</span>   Developer?</h1><br>
+        <div class="border border-2 border-warning  mt-5 p-4 rounded-5 shadow-lg bg-white text-center ms-4 me-4 ">A front end developer has a crucial role in crafting and implementing an application's user interface. This interface is the gateway to users accessing and interacting with the application. A web designer shapes a website's visual appearance and layout. At the same time, the front end developer ensures that this design seamlessly functions online by employing coding languages such as CSS, HTML, and JavaScript.</div>
+    </header><br><br><br>
+    <section>
+        <h3 class="languages text-center mt-5 text-white text-capitalize fw-bold ">Important languages  </h3>
+        <nav class="container  d-flex p-3 m-4  flex-wrap" >
+            <div class="card" style="width: 18rem; height: 33rem;">
+                <img src="html.png" class="card-img-top border border-2 rounded-5 border-danger" alt="..." >
+                <div class="card-body">
+                    <h5 class="card-title text-danger">HTML</h5>
+                    <p class="card-text">HTML Hypertext Markup Language: Proficiency in HTML is fundamental, as it is the backbone of web content, structuring the elements and layout of web pages.</p>
+                    <a href="#" class="btn btn-danger">Learn Now</a>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem; height: 33rem; ">
+                <img src="./CSS.jfif" height="290px" class="card-img-top border border-2 rounded-5 border-primary" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title text-primary ">CSS</h5>
+                    <p class="card-text">Cascading Style Sheets : Strong knowledge of CSS is essential for styling web pages, controlling typography, colors, and layouts, and ensuring a visually appealing design.</p>
+                    <a href="#" class="btn btn-primary">Learn Now</a>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem; height: 33rem;">
+                <img src="./JS.jfif" class="card-img-top border border-2 rounded-5 border-warning " alt="..." >
+                <div class="card-body">
+                    <h5 class="card-title text-warning">JavaScript</h5>
+                    <p class="card-text text-overflow-scroll">JavaScript: Mastery of JavaScript is crucial for adding interactivity, functionality, and dynamic features to web pages. This includes using libraries like jQuery and modern JavaScript frameworks like React, Angular, or Vue.js</p>
+                    <a href="#" class="btn btn-warning">Learn Now</a>
+                </div>
+            </div>
+        </nav><br>
+        <h3 class=" languages text-center mt-5 text-white text-capitalize fw-bold">More Tools</h3>
+        <nav class="tools d-flex  p-3 m-4 flex-wrap ">
+            <div class="card border-dark mb-3" style="max-width: 17rem;">
+                <div class="card-header text-dark fs-6 fw-bold">Responsive</div>
+                <div class="card-body text-dark">
+                    <h5 class="card-title">Responsive Web Design</h5>
+                    <p class="card-text ">front end developers must be skilled in creating responsive layouts that adapt seamlessly to various screen sizes and devices, including mobile phones, tablets, and desktops.</p>
+                </div>
+            </div>
+            <div class="card border-dark mb-3" style="max-width: 17rem;">
+                <div class="card-header text-danger fw-bold">GitHup</div>
+                <div class="card-body text-dark">
+                    <h5 class="card-title ">GitHup</h5>
+                    <p class="card-text">made your website Showen in google search and people can see it on the internet.</p>
+                </div>
+            </div>
+            <div class="card border-dark mb-3" style="max-width: 17rem;">
+                <div class="card-header text-info fw-bold">Front end Frameworks</div>
+                <div class="card-body text-dark">
+                    <h5 class="card-title">Frameworks</h5>
+                    <p class="card-text"> Experience with front end frameworks and libraries is often required, depending on the specific role.</p>
+                </div>
+            </div>
+            <div class="card border-dark mb-3" style="max-width: 17rem;">
+                <div class="card-header text-primary fw-bold">UI/UX Principles</div>
+                <div class="card-body text-dark">
+                    <h5 class="card-title">UI/UX</h5>
+                    <p class="card-text">A basic understanding of UI and UX design principles is essential for collaborating effectively with designers and ensuring a user-friendly interface.</p>
+                </div>
+            </div>
+            <div class="card border-dark mb-3" style="max-width: 17rem;">
+                <div class="card-header text-warning fw-bold">Problem-Solving</div>
+                <div class="card-body text-dark">
+                    <h5 class="card-title">PS</h5>
+                    <p class="card-text">Strong problem-solving skills are crucial for troubleshooting issues and finding efficient solutions in a dynamic web development environment.</p>
+                </div>
+            </div>
+            <div class="card border-dark mb-3" style="max-width: 17rem;">
+                <div class="card-header fs-5 fw-bold text-success">Accessibility</div>
+                <div class="card-body text-dark">
+                    <h5 class="card-title">A11y</h5>
+                    <p class="card-text">Understanding and implementing web accessibility standards (e.g., WCAG) to make web content usable by individuals with disabilities.</p>
+                </div>
+            </div>
+        </nav>
+    </section>
+    <footer class="bg-darke d-flex m-3 p-5 justify-content-between align-items-center text-info border border-1 rounded-4 ">
+        
+        <a href="https://www.facebook.com/aliabo.sabri" target="_blank" title="Facebook Profile">
+            <img src="./download.jfif" alt="Facebook Icon" width="30" height="30">
+        </a>
+        <a href="alimortada132003@gmail.com" target="_blank" title="alimortada132003@gmail.com">
+            <img src="./th.jfif" alt="Gmail Icon" width="30" height="30">
+        </a>
+        <a href="whatsaap" target="_blank" title="01125346313">
+            <img src="./whatsaap.jfif" alt="asa" width="30" height="30">
+        </a>
+        <a href="https://www.linkedin.com/in/ali-mortada-b6bb08281/" target="_blank" title="Ali Mortada">
+            <img src="./linked in.jfif" alt="asa" width="30" height="30">
+        </a>
+        <p class="copyright">&copy; Copyright Ali Mortada</p>
+    </footer>
+</body>
+</html>
